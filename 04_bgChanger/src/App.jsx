@@ -3,7 +3,7 @@ import {useState} from 'react'
 function App() {
 const [color, setColor] = useState("olive")
 
-let a = () =>{
+let greenBtn = () =>{
   setColor("green")
 }
   return (
