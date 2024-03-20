@@ -2,8 +2,6 @@ import React from 'react'
 
 function Card({username,btnText}) {
    
-
-
   return (
     <div className="relative h-[400px] w-[300px] rounded-md">
     <img
