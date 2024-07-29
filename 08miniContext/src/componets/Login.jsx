@@ -5,11 +5,10 @@ import UserContext from '../context/UserContext'
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const {setUser} = useContext(UserContext)
+    const {setUser} = useContext(UserContext) 
 
-    
     const handlSubmit = (e) => {
-    e.preventDefault()
+      e.preventDefault()
     setUser({username, password})
     }
   return (
